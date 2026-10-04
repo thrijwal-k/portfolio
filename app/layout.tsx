@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Thrijwal Krishnappa | Data Analyst, BI & QA Engineer',
+  title: 'Thrijwal Krishnappa | IT Analyst · Data · BI · QA · Cloud',
   description:
-    'Portfolio of Thrijwal Krishnappa: IT Analyst · Data & QA in Bristol, UK. MSc Data Science (Bristol), 3+ years at NTT DATA on MetLife health insurance data.',
+    'Portfolio of Thrijwal Krishnappa: IT Analyst · Data · BI · QA · Cloud in Bristol, UK. MSc Data Science (Bristol), 3+ years at NTT DATA on MetLife health insurance data.',
   icons: {
     icon: [
       { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },

@@ -16,7 +16,7 @@ export default function HeroSection() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
               Thrijwal Krishnappa
             </h1>
-            <p className="text-lg md:text-xl text-foreground/70">Data Engineer & Cloud Architect | Bristol, UK</p>
+            <p className="text-lg md:text-xl text-foreground/70">Data Analyst · Data Engineer · BI · QA · Cloud | Bristol, UK</p>
           </div>
 
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
