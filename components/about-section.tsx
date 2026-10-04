@@ -16,20 +16,22 @@ export default function AboutSection() {
           {/* Main About Card */}
           <div className="space-y-6 animate-fade-in-up">
             <p className="text-lg text-foreground leading-relaxed">
-              I'm a Computer Science graduate with extensive experience in data engineering, automation, and cloud
-              workflows. My journey spans from mentoring junior engineers to architecting scalable data solutions for
-              Fortune 500 companies.
+              I'm an Information Science engineering graduate with an MSc in Data Science from the University of
+              Bristol. I work across the whole data lifecycle: bringing data in, making sure it's right, and turning
+              it into reporting that people can act on.
             </p>
 
             <p className="text-lg text-foreground leading-relaxed">
-              At NTT Data, I collaborated with MetLife on insurance data systems, reducing defect leakage by 25% and
-              improving test coverage from 70% to 95%. I'm passionate about leveraging technology to solve complex
-              problems efficiently.
+              At NTT DATA, I spent over three years on MetLife's US health insurance programme, owning data marts,
+              claims, EOBs, accounting and finance. I built SQL and Python checks that raised data-quality coverage from
+              70% to 95%, cut production defects by 25% and made testing 40% faster. I was promoted from Senior
+              Associate to IT Analyst.
             </p>
 
             <p className="text-lg text-foreground leading-relaxed">
-              Currently based in Bristol, UK, pursuing my MSc in Data Science at the University of Bristol. I'm
-              certified in AWS Solutions Architecture, Snowflake Data Engineering, and Oracle Cloud Infrastructure.
+              For my MSc dissertation with AstraZeneca, I helped combine four biological datasets across 1,479
+              cancer cell lines into a tool that recommends cell lines for research. My other projects cover machine
+              learning, NLP, dashboards and AWS data pipelines. I'm based in Bristol and open to roles across the UK.
             </p>
 
             <div className="pt-6 border-t border-border">
