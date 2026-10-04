@@ -12,12 +12,14 @@ export default function CertificationsSection() {
     { title: "Certified SAFe 6 Practitioner", year: "2023" },
     { title: "Master Data Management (MDM) Certification", year: "2023" },
     { title: "Generative AI Level 1, 2 & 3 Certification", year: "2024" },
+    { title: "NTT DATA Certified Test Practitioner", year: "2024" },
+    { title: "NHS Data Security Awareness (e-Learning for Healthcare)", year: "2026" },
   ]
 
   return (
     <section id="certifications" className="py-24 px-4 sm:px-6 lg:px-8 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Certifications & Awards</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Certifications</h2>
         <div className="h-1 w-24 bg-border rounded-full mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

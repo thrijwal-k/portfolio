@@ -7,6 +7,7 @@ import ExperienceSection from "@/components/experience-section"
 import ProjectsSection from "@/components/projects-section"
 import SkillsSection from "@/components/skills-section"
 import CertificationsSection from "@/components/certifications-section"
+import ContactSection from "@/components/contact-section"
 
 export default function Home() {
   const [showContent, setShowContent] = useState(false)
@@ -15,7 +16,7 @@ export default function Home() {
     // Show name intro for 2 seconds, then load content
     const timer = setTimeout(() => {
       setShowContent(true)
-    }, 2000)
+    }, 900)
     return () => clearTimeout(timer)
   }, [])
 
@@ -43,6 +44,7 @@ export default function Home() {
           <ProjectsSection />
           <SkillsSection />
           <CertificationsSection />
+          <ContactSection />
         </main>
       </div>
     </div>

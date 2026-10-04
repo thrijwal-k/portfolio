@@ -7,25 +7,16 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Thrijwal',
-  description: '.',
-  generator: 'Thrijwal',
+  title: 'Thrijwal Krishnappa | Data Analyst, BI & QA Engineer',
+  description:
+    'Portfolio of Thrijwal Krishnappa: data analyst, BI and QA engineer in Bristol, UK. MSc Data Science (Bristol), 3+ years at NTT DATA on MetLife health insurance data.',
   icons: {
     icon: [
-      {
-        url: '',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '',
-        type: 'image/svg+xml',
-      },
+      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
+      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
     ],
-    apple: '',
+    apple: '/apple-icon.png',
   },
 }
 
