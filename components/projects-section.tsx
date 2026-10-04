@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { ExternalLink, Github, GraduationCap } from "lucide-react"
 
-type Category = "MSc Coursework" | "Personal" | "Earlier Work"
+type Category = "MSc" | "Personal" | "Earlier Work"
 
 type Project = {
   title: string
@@ -31,7 +31,7 @@ const projects: Project[] = [
     ],
     tech: ["Python", "MOFA+", "scikit-learn", "UMAP", "Streamlit", "Ollama", "pandas"],
     achievement: "1,479 cell lines",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2026",
     github: "https://github.com/ShankaraNG/astrazeneca",
     note: "MSc dissertation · group of 4 · supervised by Dr Daniel D'Andrea",
@@ -61,7 +61,7 @@ const projects: Project[] = [
     ],
     tech: ["Python", "scikit-learn", "XGBoost", "MIMIC-III", "eICU"],
     achievement: "External validation",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2026",
   },
   {
@@ -75,7 +75,7 @@ const projects: Project[] = [
     ],
     tech: ["Python", "Sentence-BERT", "SPECTER2", "Gensim", "LDA", "NMF"],
     achievement: "24,677 abstracts",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2026",
   },
   {
@@ -89,7 +89,7 @@ const projects: Project[] = [
     ],
     tech: ["Tableau", "Python", "pandas", "PCA", "t-SNE", "Bayesian"],
     achievement: "348 authorities",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2026",
   },
   {
@@ -103,7 +103,7 @@ const projects: Project[] = [
     ],
     tech: ["R", "tidymodels", "recipes", "bonsai", "tidyverse"],
     achievement: "ROC-AUC 0.68",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2026",
   },
   {
@@ -117,7 +117,7 @@ const projects: Project[] = [
     ],
     tech: ["AWS", "S3", "SQS", "EC2", "DynamoDB", "CloudWatch", "Python"],
     achievement: "2× faster",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2025",
   },
   {
@@ -131,7 +131,7 @@ const projects: Project[] = [
     ],
     tech: ["R", "Python", "Git", "ANOVA", "Statistics"],
     achievement: "3,240 runs",
-    category: "MSc Coursework",
+    category: "MSc",
     year: "2025",
   },
   {
@@ -163,7 +163,7 @@ const projects: Project[] = [
   },
 ]
 
-const filters: ("All" | Category)[] = ["All", "MSc Coursework", "Personal", "Earlier Work"]
+const filters: ("All" | Category)[] = ["All", "MSc", "Personal", "Earlier Work"]
 
 export default function ProjectsSection() {
   const [active, setActive] = useState<(typeof filters)[number]>("All")
@@ -207,7 +207,7 @@ export default function ProjectsSection() {
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex items-center justify-between gap-2 mb-3 text-xs text-foreground/60">
                   <span className="flex items-center gap-1.5">
-                    {project.category === "MSc Coursework" && <GraduationCap size={14} />}
+                    {project.category === "MSc" && <GraduationCap size={14} />}
                     {project.category} · {project.year}
                   </span>
                   <span className="font-bold text-foreground bg-foreground/5 px-3 py-1 rounded-full whitespace-nowrap">
