@@ -17,8 +17,8 @@ export default function ContactSection() {
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Get in Touch</h2>
         <div className="h-1 w-24 bg-border rounded-full mb-8" />
         <p className="text-lg text-foreground/80 max-w-2xl mb-10 leading-relaxed">
-          I'm looking for data, BI and QA roles in the UK. If you'd like to talk about a role or a project, I'd be glad
-          to hear from you.
+          I'm open to data analyst, data engineering, business analyst, BI, QA and cloud roles across the UK. If
+          you'd like to talk about a role or a project, I'd be glad to hear from you.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
