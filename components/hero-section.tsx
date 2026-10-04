@@ -20,8 +20,7 @@ export default function HeroSection() {
           </div>
 
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
-            I craft data solutions and cloud architectures that optimize processes, reduce manual effort, and ensure
-            reliable operations. Specialized in Python, SQL, AWS, and enterprise data systems.
+                I turn messy data into trusted reporting and well-tested systems. Python, SQL, BI, test automation and AWS, backed by 3+ 		years at NTT DATA and an MSc in Data Science from the University of Bristol.
           </p>
 
           {/* CTA Buttons */}
