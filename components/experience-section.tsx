@@ -3,39 +3,27 @@
 export default function ExperienceSection() {
   const experiences = [
     {
-      role: "Store Operator (Night Shift)",
-      company: "Marks & Spencer",
-      period: "Dec 2025 – Present",
-      location: "Bristol, UK",
-      highlights: [
-        "Overnight replenishment and stock rotation alongside my MSc",
-        "Informal first-line IT help for colleagues on store systems",
-      ],
-    },
-    {
       role: "Information Technology Analyst",
-      company: "NTT DATA (client: MetLife, U.S.)",
+      company: "NTT Data",
       period: "June 2024 – Aug 2025",
       location: "Bangalore, India",
       highlights: [
-        "Owned all 32 scheduled data warehouse outputs (daily to yearly) for finance, accounting and claims teams",
-        "Raised data-quality coverage from 70% to 95% and cut defects reaching production by 25% with SQL and Python checks",
-        "Built SSRS reports and T-SQL queries, stored procedures and functions on SQL Server",
-        "Supported UAT with client users and wrote formal test reports for each release",
-        "Cut onboarding time by 30% through documentation and training",
+        "Collaborated with U.S. client MetLife on insurance data systems",
+        "Improved test coverage from 70% to 95%",
+        "Reduced defect leakage by 25% using Python automation",
+        "Mentored junior QA engineers and reduced onboarding time by 30%",
       ],
     },
     {
       role: "Information Technology Senior Associate",
-      company: "NTT DATA (client: MetLife, U.S.)",
+      company: "NTT Data",
       period: "Jan 2022 – June 2024",
       location: "Bangalore, India",
       highlights: [
-        "Built UI and API test automation (Selenium, TestNG, REST Assured, Postman) running in CI/CD",
+        "Automated test suites using Selenium, Python, and TestNG",
         "Accelerated test execution by 40%",
-        "Developed reusable Python and Java frameworks other engineers extended",
-        "Reduced release delays by 20% through defect-trend analysis and reporting",
-        "Planned capacity across a 4-team, 40-person SAFe programme, helping lift velocity by 15%",
+        "Developed reusable Python frameworks for automation",
+        "Reduced release delays by 20% through defect analysis",
       ],
     },
   ]

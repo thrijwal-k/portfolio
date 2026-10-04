@@ -16,13 +16,12 @@ export default function HeroSection() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
               Thrijwal Krishnappa
             </h1>
-            <p className="text-lg md:text-xl text-foreground/70">Data Analyst · BI · QA Engineer | Bristol, UK</p>
+            <p className="text-lg md:text-xl text-foreground/70">Data Engineer & Cloud Architect | Bristol, UK</p>
           </div>
 
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
-            I turn complex data into reliable reporting and insight, and build quality into the systems behind it.
-            3+ years at NTT DATA on MetLife's health insurance data, and an MSc in Data Science from the University of
-            Bristol. Python, SQL, Power BI, Tableau, test automation and AWS.
+            I craft data solutions and cloud architectures that optimize processes, reduce manual effort, and ensure
+            reliable operations. Specialized in Python, SQL, AWS, and enterprise data systems.
           </p>
 
           {/* CTA Buttons */}
@@ -34,10 +33,10 @@ export default function HeroSection() {
               View My Work
             </button>
             <button
-              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("skills")?.scrollIntoView({ behavior: "smooth" })}
               className="px-6 md:px-8 py-2 md:py-3 border border-foreground text-foreground rounded-lg font-semibold hover:bg-foreground/10 transition-smooth text-sm md:text-base"
             >
-              Get in Touch
+              Learn More
             </button>
           </div>
         </div>

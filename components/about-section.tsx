@@ -16,21 +16,20 @@ export default function AboutSection() {
           {/* Main About Card */}
           <div className="space-y-6 animate-fade-in-up">
             <p className="text-lg text-foreground leading-relaxed">
-              I'm an Information Science engineering graduate with an MSc in Data Science from the University of
-              Bristol, and over three years of industry experience in data, reporting and test automation.
+              I'm a Computer Science graduate with extensive experience in data engineering, automation, and cloud
+              workflows. My journey spans from mentoring junior engineers to architecting scalable data solutions for
+              Fortune 500 companies.
             </p>
 
             <p className="text-lg text-foreground leading-relaxed">
-              At NTT DATA, working on MetLife's accident and health insurance programme, I owned 32 scheduled data
-              warehouse outputs, built SQL and Python checks that raised data-quality coverage from 70% to 95% and cut
-              defects by 25%, and automated testing to make it 40% faster. I was promoted from Senior Associate to IT
-              Analyst.
+              At NTT Data, I collaborated with MetLife on insurance data systems, reducing defect leakage by 25% and
+              improving test coverage from 70% to 95%. I'm passionate about leveraging technology to solve complex
+              problems efficiently.
             </p>
 
             <p className="text-lg text-foreground leading-relaxed">
-              During my MSc I focused on forecasting, time series in healthcare, machine learning and visual
-              analytics. I'm based in Bristol, UK, and I'm looking for data, BI and QA roles where good data improves
-              real decisions.
+              Currently based in Bristol, UK, pursuing my MSc in Data Science at the University of Bristol. I'm
+              certified in AWS Solutions Architecture, Snowflake Data Engineering, and Oracle Cloud Infrastructure.
             </p>
 
             <div className="pt-6 border-t border-border">
@@ -48,12 +47,10 @@ export default function AboutSection() {
           </div>
 
           {/* Stats Cards */}
-          <div className="grid grid-cols-2 gap-4 content-start">
+          <div className="grid grid-cols-2 gap-4">
             {[
               { number: "3+", label: "Years Experience" },
-              { number: "32", label: "Data Outputs Owned" },
-              { number: "70→95%", label: "Data-Quality Coverage" },
-              { number: "11", label: "Projects" },
+              { number: "10+", label: "Certifications" },
             ].map((stat, index) => (
               <div
                 key={index}
