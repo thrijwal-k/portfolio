@@ -20,6 +20,22 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "Transaction Monitoring & Fraud Detection",
+    description:
+      "An anti-money-laundering style monitoring system on 6.36 million mobile money transactions, combining rule-based scenarios with machine learning and explainable alerts.",
+    highlights: [
+      "Caught 99.9% of fraud with 76% fewer alerts than rule-based monitoring (2,928 vs 12,395); the existing flag caught 0.3%",
+      "5 AML scenarios (large transfers, account emptying, rapid pass-through, fan-in) plus XGBoost on a time-based split",
+      "Stress-tested the result: without simulator artefacts, behaviour alone still flagged fraud at 16% precision at the real 0.3% fraud rate, about 54x better than random",
+      "Streamlit investigator queue with plain-English reasons for every alert from SHAP values",
+    ],
+    tech: ["Python", "XGBoost", "scikit-learn", "SHAP", "Streamlit", "pandas"],
+    achievement: "6.36M transactions",
+    category: "Personal",
+    year: "2026",
+    github: "https://github.com/thrijwal-k/aml-transaction-monitoring",
+  },
+  {
     title: "CellLineSelector: Cancer Cell Line Recommender for AstraZeneca",
     description:
       "MSc dissertation with AstraZeneca. A decision-support tool that ranks cancer cell lines for a chosen target gene by joining several biological datasets into one evidence-based score.",
