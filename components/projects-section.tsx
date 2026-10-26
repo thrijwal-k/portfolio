@@ -20,6 +20,22 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "QuickCart: Playwright + BDD Test Automation Framework",
+    description:
+      "A UI and API test automation framework for a ReactJS shop, built with Playwright and Cucumber-style BDD, tested cross-browser in GitHub Actions CI/CD, with a Jenkins pipeline included.",
+    highlights: [
+      "21 end-to-end BDD scenarios (sign-in, search, cart, checkout) running on Chromium, Firefox and WebKit: 63 UI runs plus 15 API tests",
+      "Page Object Model, Scenario Outlines for negative cases, and @smoke / @regression tags for targeted runs",
+      "78 tests green in CI in about 90 seconds, with traces, screenshots and video on failure and JUnit and HTML reports",
+      "Fixed real CI issues along the way: moved to the official Playwright container and traced a Firefox-only failure to its root cause",
+    ],
+    tech: ["Playwright", "TypeScript", "Cucumber / BDD", "ReactJS", "Jenkins", "GitHub Actions"],
+    achievement: "78 tests, 3 browsers",
+    category: "Personal",
+    year: "2026",
+    github: "https://github.com/thrijwal-k/quickcart-playwright-bdd",
+  },
+  {
     title: "Transaction Monitoring & Fraud Detection",
     description:
       "An anti-money-laundering style monitoring system on 6.36 million mobile money transactions, combining rule-based scenarios with machine learning and explainable alerts.",

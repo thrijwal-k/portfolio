@@ -12,7 +12,7 @@ export default function SkillsSection() {
     },
     {
       category: "Data & Testing",
-      skills: ["Data Engineering", "Test Automation", "Selenium", "JMeter", "Postman", "API Testing"],
+      skills: ["Data Engineering", "Test Automation", "Playwright", "Selenium", "JMeter", "Postman", "API Testing"],
     },
     {
       category: "Frameworks & Tools",
