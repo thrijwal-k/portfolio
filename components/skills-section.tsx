@@ -4,7 +4,7 @@ export default function SkillsSection() {
   const skillCategories = [
     {
       category: "Languages",
-      skills: ["Python", "Java", "SQL", "JavaScript", "C/C++", "R", "HTML/CSS"],
+      skills: ["Python", "Java", "C#", "SQL", "JavaScript", "C/C++", "R", "HTML/CSS"],
     },
     {
       category: "Cloud & DevOps",
@@ -12,7 +12,7 @@ export default function SkillsSection() {
     },
     {
       category: "Data & Testing",
-      skills: ["Data Engineering", "Test Automation", "Playwright", "Selenium", "JMeter", "Postman", "API Testing"],
+      skills: ["Data Engineering", "Test Automation", "Playwright", "Reqnroll / BDD", "Selenium", "JMeter", "Postman", "API Testing"],
     },
     {
       category: "Frameworks & Tools",

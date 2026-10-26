@@ -36,6 +36,22 @@ const projects: Project[] = [
     github: "https://github.com/thrijwal-k/quickcart-playwright-bdd",
   },
   {
+    title: "QuickCart .NET: C# Playwright + Reqnroll BDD Framework",
+    description:
+      "The same shop tested in C# / .NET 8 with Microsoft.Playwright, Reqnroll (SpecFlow successor) and NUnit, adding Excel-driven test data, SQL database checks and an Azure DevOps pipeline.",
+    highlights: [
+      "27 Reqnroll BDD scenarios and 19 RestSharp API tests, all passing in CI",
+      "No hard sleeps: condition-based Expect assertions and an isolated browser context per scenario",
+      "Test data read from Excel with EPPlus; UI prices and API data asserted against a SQL reference database",
+      "Azure DevOps YAML pipeline with SIT/UAT environment switching, published test results, Serilog logs and a trace and screenshot for every failure",
+    ],
+    tech: ["C# / .NET 8", "Playwright", "Reqnroll", "NUnit", "RestSharp", "Azure DevOps"],
+    achievement: "46 tests passing",
+    category: "Personal",
+    year: "2026",
+    github: "https://github.com/thrijwal-k/quickcart-playwright-dotnet",
+  },
+  {
     title: "Transaction Monitoring & Fraud Detection",
     description:
       "An anti-money-laundering style monitoring system on 6.36 million mobile money transactions, combining rule-based scenarios with machine learning and explainable alerts.",
